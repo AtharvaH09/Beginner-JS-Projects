@@ -1,0 +1,28 @@
+# Snake, Water, Gun Game
+This is a simple JavaScript implementation of the classic game "Snake, Water, Gun." The game prompts the user to enter 'S' for Snake, 'W' for Water, or 'G' for Gun, and the computer randomly generates its own choice. The outcome of each round (Win, Loss, or Draw) is determined and displayed using alerts, and the user is asked if they want to continue playing. Scores are tracked and displayed after each round.
+
+## Rules
+- Snake (S) drinks Water (W)
+- Water (W) douses Gun (G)
+- Gun (G) kills Snake (S)
+- If both choices are the same, it's a Draw.
+
+## Features
+- User input is taken via prompt.
+- Computer's choice is generated randomly.
+- Results are displayed using alert.
+- The game continues until the user chooses to stop playing.
+- Scores are tracked and displayed after each round and at the end of the game.
+
+## Code Structure
+- cpuGen(): Function to generate the computer's choice.
+- playerChoice(): Function to get and validate the player's choice.
+- result(playerW): Function to display the result of each round and prompt to continue or stop the game.
+- playGame(): Main function to play a round and determine the outcome.
+
+## Usage
+Clone the repository and open the index.html file in any modern web browser to start playing the game.
+
+```bash
+git clone https://github.com/yourusername/snake-water-gun-game.git
+```
